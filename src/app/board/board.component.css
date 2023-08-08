@@ -1,0 +1,70 @@
+.row-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .5rem 0 .5rem 0;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin: 0 4px 8px 4px;
+}
+mat-table{
+    height: 20rem;
+    border: 1px solid black;
+}
+.evaluate{
+    margin: .5rem 0 0 0;
+    display: block;
+    border: 1px solid black;
+}
+.question{
+    margin: .5rem 0 0 0;
+    display: block;
+    border: 1px solid black;
+}
+.question span{
+    padding: .5rem 0 0 1rem;
+    font-weight: bold;
+}
+.question p{
+    padding: .5rem .5rem .5rem 1rem;
+    font-weight: bold;
+    margin: 0 0 .5rem 0;
+}
+.page_info{
+    margin: .5rem 0 0 0;
+    display: block;   
+    border: 1px solid black;
+}
+
+.page_info span{
+    padding: .5rem 0 0 1rem;
+    display: flex;
+}
+.page_info p{
+    padding: .5rem .5rem .5rem 1rem;
+}
+
+.mat-mdc-raised-button.mat-calculate {
+    --mdc-protected-button-container-color: #3fb584;
+    --mdc-protected-button-label-text-color: #fff;
+}
+.mat-mdc-raised-button.mat-report {
+    --mdc-protected-button-container-color: #ff7019;
+    --mdc-protected-button-label-text-color: #fff;
+}
+.mat-mdc-raised-button.mat-finish {
+    --mdc-protected-button-container-color: #29f5a1;
+    --mdc-protected-button-label-text-color: #fff;
+}
+
+.evaluate .row-container:nth-child(2) .icon-button-container{
+    display: flex;
+    justify-content: center;
+    margin: 0 4px 8px 4px;   
+}
+.evaluate button{
+    padding: 0 4px 0 4px;
+}

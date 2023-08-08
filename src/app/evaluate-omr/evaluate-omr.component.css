@@ -1,0 +1,21 @@
+.evaluate-omr{
+    display: flex;
+    padding-top: 1rem;
+}
+app-mark{
+    position: relative;
+    left: 3px;
+    width: 10rem;
+    bottom: 0;
+}
+app-omr-sheet{
+    position: relative;
+    margin: 0 0 0 1rem;
+    padding: 0 .5rem 0 .5rem;
+    width: 75rem;
+}
+app-board{
+    position: relative;
+    margin: 0 1rem 0 3rem;
+    width: 25rem;
+}

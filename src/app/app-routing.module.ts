@@ -5,7 +5,7 @@ import { EvaluateOmrComponent } from './evaluate-omr/evaluate-omr.component';
 
 const routes: Routes = [
   {path: '', component: DashboardComponent},
-  {path: '  test', component: EvaluateOmrComponent},
+  {path: 'test', component: EvaluateOmrComponent},
 ];
 
 @NgModule({

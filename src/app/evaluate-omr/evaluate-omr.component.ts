@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./evaluate-omr.component.css']
 })
 export class EvaluateOmrComponent {
-
+  
 }

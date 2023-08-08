@@ -1,0 +1,93 @@
+<div class="mark">
+    <div class="row-container">
+        <mat-form-field>
+            <!-- <mat-label>Favorite food</mat-label> -->
+            <mat-select [value]="selectedFood">
+              <mat-option *ngFor="let food of foods" [value]="food.value">
+                {{food.viewValue}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div>
+    <div class="row-container">
+        <div class="button-container"><button mat-mini-fab color="primary">0</button></div>
+        <div class="button-container"><button mat-mini-fab color="primary">1⁄2</button></div>
+    </div>
+    <div class="row-container">
+        <div class="button-container"><button mat-mini-fab color="primary">1</button></div>
+        <div class="button-container"><button mat-mini-fab color="primary">2</button></div>
+    </div>
+    <div class="row-container">
+        <div class="button-container"><button mat-mini-fab color="primary">3</button></div>
+        <div class="button-container"><button mat-mini-fab color="primary">4</button></div>
+    </div>
+    <div class="row-container">
+        <div class="button-container"><button mat-mini-fab color="primary">5</button></div>
+        <div class="button-container"><button mat-mini-fab color="primary">6</button></div>
+    </div>
+    <div class="row-container">
+        <div class="button-container"><button mat-mini-fab color="primary">7</button></div>
+        <div class="button-container"><button mat-mini-fab color="primary">8</button></div>
+    </div>
+    <div class="row-container">
+        <div class="button-container"><button mat-mini-fab color="primary">9</button></div>
+        <div class="button-container"><button mat-mini-fab color="primary">10</button></div>
+    </div>
+    <h2></h2>
+    <div class="row-container">
+        <div class="icon-button-container">
+            <button mat-mini-fab color="red">
+                <mat-icon>done_outline</mat-icon>
+            </button>
+        </div>
+        <div class="icon-button-container">
+            <button mat-mini-fab color="green">
+                <mat-icon>close</mat-icon>
+            </button>
+        </div>
+    </div>
+    <div class="row-container">
+        <div class="icon-button-container">
+            <button mat-mini-fab color="black">
+                <mat-icon>title</mat-icon>
+            </button>
+        </div>
+        <div class="icon-button-container">
+            <button mat-mini-fab color="black">
+                <mat-icon>visibility</mat-icon>
+            </button>
+        </div>
+    </div>
+    <div class="row-container">
+        <div class="icon-button-container">
+            <button mat-mini-fab color="black">
+                <mat-icon >create</mat-icon>
+            </button>
+        </div>
+        <div class="icon-button-container">
+            <button mat-mini-fab color="black">
+                <mat-icon>replay</mat-icon>
+            </button>
+        </div>
+    </div>
+    <div class="row-container">
+        <div class="icon-button-container">
+            <button mat-mini-fab color="black">
+                <mat-icon >delete</mat-icon>
+            </button>
+        </div>
+        <div class="icon-button-container">
+        </div>
+    </div>
+<h2></h2>
+    <div class="button-container">
+        <button mat-raised-button color="primary">
+            <mat-icon>assignment</mat-icon>
+        </button>
+    </div>
+    <div class="button-container">
+        <button mat-raised-button color="primary">
+            <mat-icon>border_color</mat-icon>
+        </button>
+    </div>
+</div>

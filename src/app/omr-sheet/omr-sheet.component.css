@@ -1,0 +1,27 @@
+.title{
+    display: flex;
+}
+.title .btn{
+    width: 10%;
+    text-align: right;
+}
+.title .page_index{
+    width: 90%;
+    text-align: center;
+}
+.title span{
+    color: black;
+    font-weight: 400;
+    font-size: medium;
+}
+.omr{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    overflow-y: hidden;
+}
+.mat-mdc-fab.mat-next, .mat-mdc-mini-fab.mat-next {
+    --mdc-fab-container-color: #3fb584;
+    --mdc-fab-icon-color: #fff;
+    --mat-mdc-fab-color: #fff;
+}

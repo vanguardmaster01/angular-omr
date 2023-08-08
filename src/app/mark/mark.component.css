@@ -1,0 +1,88 @@
+.mark{
+    width: 10rem;
+    border: 1px solid;
+    padding: 1rem 0 0 0;
+    border-radius: 10px;
+    border-style: inset;
+    margin: 0 0 0 .5rem;
+}
+.row-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin: 0 4px 8px 4px;
+}
+.mat-mdc-fab.mat-primary, .mat-mdc-mini-fab.mat-primary {
+    --mdc-fab-container-color: #3fb584;
+    --mdc-fab-icon-color: #fff;
+    --mat-mdc-fab-color: #fff;
+}
+h2{
+    border-top: 1px solid;
+    width: 8rem;
+    margin-left: 1rem;
+}
+.icon-button-container{
+    display: flex;
+    justify-content: center;
+    margin: 0 4px 8px 4px;   
+    width: 40px;
+    height: 40px;
+}
+.mat-mdc-form-field{
+    margin: 0 10px;
+}
+
+.mat-mdc-fab.mat-red, .mat-mdc-mini-fab.mat-red {
+    --mdc-fab-container-color: #ffffff;
+    --mdc-fab-icon-color: #fff;
+    --mat-mdc-fab-color: #ff0c0c;
+}
+.mat-mdc-fab.mat-green, .mat-mdc-mini-fab.mat-green {
+    --mdc-fab-container-color: #ffffff;
+    --mdc-fab-icon-color: #fff;
+    --mat-mdc-fab-color: #3fb584;
+}
+.mat-mdc-fab.mat-black, .mat-mdc-mini-fab.mat-black {
+    --mdc-fab-container-color: #ffffff;
+    --mdc-fab-icon-color: #fff;
+    --mat-mdc-fab-color: #000;
+}
+
+/* .mark .row-container:nth-child(9) .icon-button-container:nth-child(1) .mat-mdc-icon-button.mat-warn {
+    --mdc-icon-button-icon-color: #19f1b5;
+    --mat-mdc-button-persistent-ripple-color: #19f1b5;
+    --mat-mdc-button-ripple-color: rgba(244, 67, 54, 0.1);
+    border: 1px solid;
+}
+
+.mark .row-container:nth-child(9) .icon-button-container:nth-child(2) .mat-mdc-icon-button.mat-warn {
+    --mdc-icon-button-icon-color: #f44336;
+    --mat-mdc-button-persistent-ripple-color: #f44336;
+    --mat-mdc-button-ripple-color: rgba(244, 67, 54, 0.1);
+    border: 1px solid;
+} */
+
+.mat-mdc-icon-button.mat-warn {
+    --mdc-icon-button-icon-color: #1a1919;
+    --mat-mdc-button-persistent-ripple-color: #000000;
+    --mat-mdc-button-ripple-color: rgba(244, 67, 54, 0.1);
+    border: 1px solid;
+}
+
+.mat-mdc-raised-button:not(:disabled) {
+    color: var(--mdc-protected-button-label-text-color, inherit);
+}
+.mat-mdc-raised-button:not(:disabled) {
+    background-color: var(--mdc-protected-button-container-color, transparent);
+}
+.mat-mdc-raised-button.mat-primary {
+    --mdc-protected-button-container-color: #a058ff;
+    --mdc-protected-button-label-text-color: #fff;
+    width: 6rem;
+}

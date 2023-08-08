@@ -1,0 +1,48 @@
+<mat-table [dataSource]="questions">
+    <!-- User name Definition -->
+    <ng-container matColumnDef="iIndex">
+      <mat-header-cell *matHeaderCellDef> Questions </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.iIndex}} </mat-cell>
+    </ng-container>
+  
+    <!-- Age Definition -->
+    <ng-container matColumnDef="iOutOf">
+      <mat-header-cell *matHeaderCellDef> Out of </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.iOutOf}} </mat-cell>
+    </ng-container>
+  
+    <!-- Title Definition -->
+    <ng-container matColumnDef="fScore">
+      <mat-header-cell *matHeaderCellDef> Score </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.fScore}} </mat-cell>
+    </ng-container>
+  
+    <!-- Header and Row Declarations -->
+    <mat-header-row *matHeaderRowDef="['iIndex', 'iOutOf', 'fScore']"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: ['iIndex', 'iOutOf', 'fScore']"></mat-row>
+</mat-table>
+<div class="evaluate">
+    <div class="row-container">
+        <div class="icon-button-container">
+            <button mat-raised-button color="calculate">Calculate Total Score: 5.00 / 30.00</button>
+        </div>
+    </div>
+    
+    <div class="row-container">
+        <div class="icon-button-container">
+            <button mat-raised-button color="report">Report Paper</button>
+        </div>
+        <div class="icon-button-container">
+            <button mat-raised-button color="finish">Finish Paper</button>
+        </div>
+    </div>
+</div>
+<div class="question">
+    <span>1 :</span>
+    <p>Explain Product building whti Suitable example...</p>
+</div>
+<div class="page_info">
+    <span>Total Pages : 20</span>
+    <span>Not Visited : 10</span>
+    <p>2,3,4,5,6,7,8,9,10,11,12,13</p>
+</div>
