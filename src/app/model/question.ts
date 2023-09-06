@@ -4,20 +4,9 @@ export interface Question{
     iOutOf:Number;
 }
 
-// moranbong and botong river 
-// nice houses that can live  soon
-//     35000 - 60000
-
-// then, lower that have to build the inside
-//     20000
-
-
-
 {
-    
-    // according to the somethings, 
-    // indecated or needed amount , anyway few amount that you posses currencies is changed our currency, and given to owner.
-    
-    // Then, rest is deposited to bank.
-    // Once you need, you can use it (of course not dollor)
-  }
+    // My sister: 1913182472 OR 1913685547
+    // I bought her handbag, and husband's watch - longines (leather straps).
+    // And let me know what is needed for my parents and my sister's family.
+    // Please don't hesitate to request me. I don't really know what to buy for them.
+}
